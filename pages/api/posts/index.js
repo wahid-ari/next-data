@@ -3,7 +3,7 @@ import { posts } from "@data/posts"
 
 export default function handler(req, res) {
   const { user, id } = req.query
-  console.log(user, id)
+
   if (user !== undefined && id !== undefined) {
     const filtered = posts.filter(post => post.userId == user && post.id == id)
     if (filtered.length > 0) {
