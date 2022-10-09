@@ -20,6 +20,21 @@ export default function Navbar() {
         <Link href="/post">
           <a className="text-sky-500 hover:text-sky-600 transition-all text-sm font-medium">Post</a>
         </Link>
+        <Link href="/mountain">
+          <a className="text-sky-500 hover:text-sky-600 transition-all text-sm font-medium">Mountain</a>
+        </Link>
+        <Link href="/publisher">
+          <a className="text-sky-500 hover:text-sky-600 transition-all text-sm font-medium">Publisher</a>
+        </Link>
+        <Link href="/hero">
+          <a className="text-sky-500 hover:text-sky-600 transition-all text-sm font-medium">Hero</a>
+        </Link>
+        <Link href="/console">
+          <a className="text-sky-500 hover:text-sky-600 transition-all text-sm font-medium">Console</a>
+        </Link>
+        <Link href="/example">
+          <a className="text-sky-500 hover:text-sky-600 transition-all text-sm font-medium">Example</a>
+        </Link>
       </nav>
       {darkMode ?
         <button aria-label="Change Theme" onClick={() => setDarkMode(!darkMode)}><SunIcon className="h-5 w-5 text-gray-700 dark:text-gray-200" /></button>
