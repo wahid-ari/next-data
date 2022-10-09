@@ -18,7 +18,7 @@ export default function Customer() {
 
         <Navbar />
 
-        <div className="max-w-5xl px-4 mx-auto pt-4 class">
+        <div className="max-w-5xl px-4 mx-auto pt-4 ">
           <h1 className="dark:text-white text-2xl font-semibold">Customer Data</h1>
 
           <div className="my-8 dark:text-white">

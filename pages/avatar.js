@@ -18,7 +18,7 @@ export default function Avatar() {
 
         <Navbar />
 
-        <div className="max-w-5xl px-4 mx-auto pt-4 class">
+        <div className="max-w-5xl px-4 mx-auto pt-4 ">
           <h1 className="dark:text-white text-2xl font-semibold">Avatar Data</h1>
 
           <div className="my-8 dark:text-white">
@@ -28,8 +28,8 @@ export default function Avatar() {
             <a href={`${process.env.API_URL}/api/avatars?id=1`} className={linkClassName} target="_blank" rel="noreferrer">
               {process.env.API_URL}/api/avatars?id=1
             </a>
-            <a href={`${process.env.API_URL}/api/avatars/1`} className={linkClassName} target="_blank" rel="noreferrer">
-              {process.env.API_URL}/api/avatars/1
+            <a href={`${process.env.API_URL}/api/avatars/2`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/avatars/2
             </a>
           </div>
 

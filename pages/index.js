@@ -17,8 +17,213 @@ export default function Home() {
 
         <Navbar />
 
-        <div className="max-w-5xl px-4 mx-auto pt-4 class">
+        <div className="max-w-5xl px-4 mx-auto pt-4 ">
           <h1 className="dark:text-white text-2xl font-semibold pb-8">Next Data</h1>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Prakerja</h1>
+            <a href={`${process.env.API_URL}/api/prakerja`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/prakerja
+            </a>
+            <a href={`${process.env.API_URL}/api/prakerja?name=dicoding`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/prakerja?name=dicoding
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Pelabuhan</h1>
+            <a href={`${process.env.API_URL}/api/pelabuhan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/pelabuhan
+            </a>
+            <a href={`${process.env.API_URL}/api/pelabuhan?kode=aat`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/pelabuhan?kode=aat
+            </a>
+            <a href={`${process.env.API_URL}/api/pelabuhan?name=tanjung`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/pelabuhan?name=tanjung
+            </a>
+            <a href={`${process.env.API_URL}/api/pelabuhan?location=surabaya`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/pelabuhan?location=surabaya
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">SNI Kode</h1>
+            <a href={`${process.env.API_URL}/api/kode-sni`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/kode-sni
+            </a>
+            <a href={`${process.env.API_URL}/api/kode-sni?kode=sby`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/kode-sni?kode=sby
+            </a>
+            <a href={`${process.env.API_URL}/api/kode-sni?province=jawa%20timur`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/kode-sni?province=jawa%20timur
+            </a>
+            <a href={`${process.env.API_URL}/api/kode-sni?city=bangkalan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/kode-sni?city=bangkalan
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Emiten</h1>
+            <a href={`${process.env.API_URL}/api/emiten`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/emiten
+            </a>
+            <a href={`${process.env.API_URL}/api/emiten?kode=aali`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/emiten?kode=aali
+            </a>
+            <a href={`${process.env.API_URL}/api/emiten?name=astra`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/emiten?name=astra
+            </a>
+            <a href={`${process.env.API_URL}/api/emiten?kode=as&name=astra`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/emiten?kode=as&name=astra
+            </a>
+            <a href={`${process.env.API_URL}/api/emiten?category=pengembangan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/emiten?category=pengembangan
+            </a>
+            <a href={`${process.env.API_URL}/api/emiten?kode=ab&category=pengembangan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/emiten?kode=ab&category=pengembangan
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Gempa</h1>
+            <a href={`${process.env.API_URL}/api/gempa`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/gempa
+            </a>
+            <a href={`${process.env.API_URL}/api/gempa/dirasakan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/gempa/dirasakan
+            </a>
+            <a href={`${process.env.API_URL}/api/gempa/auto`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/gempa/auto
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Weather</h1>
+            <a href={`${process.env.API_URL}/api/weather`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/weather
+            </a>
+            <a href={`${process.env.API_URL}/api/weather?province=jawa%20timur`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/weather?province=jawa%20timur
+            </a>
+            <a href={`${process.env.API_URL}/api/weather?city=jakarta`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/weather?city=jakarta
+            </a>
+            <a href={`${process.env.API_URL}/api/weather?time=true`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/weather?time=true
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Heroes</h1>
+            <a href={`${process.env.API_URL}/api/heroes`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/heroes
+            </a>
+            <a href={`${process.env.API_URL}/api/heroes?name=Abdurrahman%20Baswedan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/heroes?name=Abdurrahman%20Baswedan
+            </a>
+            <a href={`${process.env.API_URL}/api/heroes?q=angkatan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/heroes?q=angkatan
+            </a>
+            <a href={`${process.env.API_URL}/api/heroes?alive_start=1900&alive_end=1945`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/heroes?alive_start=1900&alive_end=1945
+            </a>
+            <a href={`${process.env.API_URL}/api/heroes?birth_start=1920&birth_end=1925`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/heroes?birth_start=1920&birth_end=1925
+            </a>
+            <a href={`${process.env.API_URL}/api/heroes?ascend_start=2000&ascend_end=2005`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/heroes?ascend_start=2000&ascend_end=2005
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Mountains</h1>
+            <a href={`${process.env.API_URL}/api/mountains`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains
+            </a>
+            <a href={`${process.env.API_URL}/api/mountains?type=stratovulkan`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains?type=stratovulkan
+            </a>
+            <a href={`${process.env.API_URL}/api/mountains?max_height=1000`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains?max_height=1000
+            </a>
+            <a href={`${process.env.API_URL}/api/mountains?min_height=3000`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains?min_height=3000
+            </a>
+            <a href={`${process.env.API_URL}/api/mountains?min_height=2500&max_height=3000`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains?min_height=2500&max_height=3000
+            </a>
+            <a href={`${process.env.API_URL}/api/mountains?type=stratovulkan&max_height=3000`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains?type=stratovulkan&max_height=3000
+            </a>
+            <a href={`${process.env.API_URL}/api/mountains?type=stratovulkan&min_height=2500&max_height=3000`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/mountains?type=stratovulkan&min_height=2500&max_height=3000
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Publishers</h1>
+            <a href={`${process.env.API_URL}/api/publishers`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?name=balai`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?name=balai
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?name=Balai%20Pustaka`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?name=Balai%20Pustaka
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?area=6`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?area=6
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?area=3&area=6`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?area=3&area=6
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?registered_year_start=2018`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?registered_year_start=2018
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?registered_year_end=1980`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?registered_year_end=1980
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?registered_year_start=2017&registered_year_end=2018`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?registered_year_start=2017&registered_year_end=2018
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?count_only=true`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?count_only=true
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?name=balai&count_only=true`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?name=balai&count_only=true
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?area=7&registered_year_end=1995`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?area=7&registered_year_end=1995
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?name=bintang&registered_year_start=2010&registered_year_end=2020`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?name=bintang&registered_year_start=2010&registered_year_end=2020
+            </a>
+            <a href={`${process.env.API_URL}/api/publishers?area=5&area=6&count_only=true`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/publishers?area=5&area=6&count_only=true
+            </a>
+          </div>
+
+          <div className="mb-6">
+            <h1 className="dark:text-white text-xl font-medium pb-3">Spotify</h1>
+            <a href={`${process.env.API_URL}/api/spotify`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/spotify
+            </a>
+            <a href={`${process.env.API_URL}/api/spotify/artist`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/spotify/artist
+            </a>
+            <a href={`${process.env.API_URL}/api/spotify/albums`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/spotify/albums
+            </a>
+            <a href={`${process.env.API_URL}/api/spotify/albums/bintang-di-surga`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/spotify/albums/bintang-di-surga
+            </a>
+            <a href={`${process.env.API_URL}/api/spotify/tracks`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/spotify/tracks
+            </a>
+            <a href={`${process.env.API_URL}/api/spotify/tracks/bintang-di-surga`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/spotify/tracks/bintang-di-surga
+            </a>
+          </div>
 
           <div className="mb-6">
             <h1 className="dark:text-white text-xl font-medium pb-3">Avatars</h1>
@@ -28,8 +233,8 @@ export default function Home() {
             <a href={`${process.env.API_URL}/api/avatars?id=1`} className={linkClassName} target="_blank" rel="noreferrer">
               {process.env.API_URL}/api/avatars?id=1
             </a>
-            <a href={`${process.env.API_URL}/api/avatars/1`} className={linkClassName} target="_blank" rel="noreferrer">
-              {process.env.API_URL}/api/avatars/1
+            <a href={`${process.env.API_URL}/api/avatars/2`} className={linkClassName} target="_blank" rel="noreferrer">
+              {process.env.API_URL}/api/avatars/2
             </a>
           </div>
 
