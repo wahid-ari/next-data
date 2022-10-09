@@ -9,7 +9,8 @@
 			"@pages/*": ["pages/*"],
 			"@data/*": ["data/*"],
 			"@libs/*": ["libs/*"],
-			"@store/*": ["store/*"]
+			"@store/*": ["store/*"],
+			"@helpers/*": ["helpers/*"]
 		}
 	},
 	"exclude": ["node_modules"]
